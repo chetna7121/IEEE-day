@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Navbar.css';
-import './animation.css';
+import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -11,19 +11,17 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-       <div id="stars"></div>
       <div className="navbar-toggle" onClick={toggleSidebar}>
         <span className="navbar-toggle-icon">&#9776;</span>
       </div>
       <ul className={`navbar-links ${isSidebarOpen ? 'open' : ''}`}>
-        <li><a href="/">HOME</a></li>
-        <li><a href="/about">ABOUT</a></li>
-        <li><a href="/services">EVENTS</a></li>
-        <li><a href="/contact">SPONSERS</a></li>
-        <li><a href="/contact">CONTACT</a></li>
+        <li><NavLink to="/">HOME</NavLink></li>
+        <li><NavLink to="/about">ABOUT</NavLink></li>
+        <li><NavLink to="/events">EVENTS</NavLink></li>
+        <li><NavLink to="/sponsors">SPONSORS</NavLink></li>
+        <li><NavLink to="/contact">CONTACT</NavLink></li>
       </ul>
     </nav>
-   
   );
 };
 

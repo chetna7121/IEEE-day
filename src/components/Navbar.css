@@ -18,7 +18,8 @@
 
 .navbar-links {
   list-style: none;
-  display: flex; 
+  display: flex;
+  margin-left: auto; /* This aligns the links to the right side */
 }
 
 .navbar-links li {
@@ -39,17 +40,19 @@
   position: absolute;
   width: 0;
   height: 1px;
-  background-color:rgb(255, 158, 93); 
+  background-color: rgb(255, 158, 93); 
   bottom: -5px; 
   left: 50%; 
   transform: translateX(-50%);
   background-color: 0.3s ease;
   transition: width 0.3s ease; 
 }
+
 .navbar-links li:hover::before {
   width: 100%;
   bottom: -1px;
 }
+
 @media (max-width: 768px) {
   .navbar-toggle {
     display: block; 
