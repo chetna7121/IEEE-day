@@ -13,7 +13,6 @@ function App() {
     <div className="App">
       <Router>
         <Navbar />
-        <Home/>
         <Routes>
           <Route path="/" element={<Home />} /> {/* Show Home component by default */}
           <Route path="/events" element={<Events />} />
@@ -22,6 +21,8 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </Router>
+      <Home/>
+      <Events/>
     </div>
   );
 }
