@@ -3,13 +3,9 @@ import React, { useEffect, useState } from "react";
 
 const Home = () => {
   const calculateTimeLeft = () => {
-    const targetDate = new Date("October 3, 2023 00:00:00").getTime();
+    const targetDate = new Date("October 6, 2023 00:00:00").getTime();
     const now = new Date().getTime();
     const difference = targetDate - now;
-
-    console.log("Target Date:", targetDate);
-    console.log("Current Date:", now);
-    console.log("Time Difference:", difference);
 
     const timeLeft = {};
 

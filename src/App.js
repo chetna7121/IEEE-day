@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
-
 import Home from './components/Home';
 import Events from './components/Events/Events';
 import About from './components/About/About';
@@ -13,6 +12,7 @@ function App() {
     <div className="App">
       <Router>
         <Navbar />
+        <Home/>
         <Routes>
           <Route path="/" element={<Home />} /> {/* Show Home component by default */}
           <Route path="/events" element={<Events />} />
@@ -21,8 +21,8 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </Router>
-      <Home/>
-      <Events/>
+
+      
     </div>
   );
 }

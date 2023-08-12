@@ -14,7 +14,7 @@
 .text-container h1 {
     font-size: 100px;
     color: rgba(225, 225, 225, 0.01);
-    background-image: url("https://cdn.bhdw.net/im/circuit-wallpaper-80791_w635.webp");
+    background-image: url("https://img.freepik.com/premium-photo/round-digital-button-backdrop_700248-12763.jpg?w=740");
     background-repeat: repeat;
     -webkit-background-clip: text;
     animation: animate 15s ease-in-out infinite;
@@ -42,14 +42,14 @@
 .timer-number {
   font-size: 36px;
   font-weight: bold;
-  background-image: linear-gradient(to right, #bd6a1c, #130e52); 
+  background-image: linear-gradient(to right, #ff9812, #1d186b); 
   -webkit-background-clip: text;
   color: transparent;
 }
 
 .timer-label {
   font-size: 14px;
-  background-image: linear-gradient(to right, #bd6a1c, #2c0949); 
+  background-image: linear-gradient(to right,#080c25, #f3980e); 
   -webkit-background-clip: text;
   font-weight: bold;
   color: transparent;
@@ -57,7 +57,7 @@
 }
 .times-up {
   font-size: 30px;
-  background-image: linear-gradient(to right, #ebb769, #f074f0); 
+  background-image: linear-gradient(to right,#080c25, #f3980e); 
   -webkit-background-clip: text;
   font-weight: bold;
   color: transparent; 
@@ -92,14 +92,14 @@
       .timer-number {
         font-size: 20px;
         font-weight: bold;
-        background-image: linear-gradient(to right, #bd6a1c, #130e52); 
+        background-image: linear-gradient(to right,#ff9812, #1d186b); 
         -webkit-background-clip: text;
         color: transparent;
       }
       
       .timer-label {
         font-size: 10px;
-        background-image: linear-gradient(to right, #bd6a1c, #2c0949); 
+        background-image: linear-gradient(to right,#252944, #f3980e); 
         -webkit-background-clip: text;
         font-weight: bold;
         color: transparent;
