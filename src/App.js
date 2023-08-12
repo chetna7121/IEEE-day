@@ -14,7 +14,7 @@ function App() {
         <Navbar />
         <Home/>
         <Routes>
-          <Route path="/" element={<Home />} /> {/* Show Home component by default */}
+          <Route path="/home" element={<Home />} /> {/* Show Home component by default */}
           <Route path="/events" element={<Events />} />
           <Route path="/about" element={<About />} />
           <Route path="/sponsors" element={<Sponsors />} />
