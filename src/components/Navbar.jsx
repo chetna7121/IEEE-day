@@ -10,8 +10,12 @@ const Navbar = () => {
   };
 
   const scrollToTop = () => {
-    console.log("Scrolling to top");
     window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  const handleNavLinkClick = () => {
+    toggleSidebar();
+    scrollToTop(); 
   };
   
   return (
@@ -21,27 +25,27 @@ const Navbar = () => {
       </div>
       <ul className={`navbar-links ${isSidebarOpen ? 'open' : ''}`}>
         <li>
-          <NavLink to="/" onClick={scrollToTop}>
+          <NavLink to="/" onClick={handleNavLinkClick}>
             HOME
           </NavLink>
         </li>
         <li>
-          <NavLink to="/about" onClick={scrollToTop}>
+          <NavLink to="/about" onClick={handleNavLinkClick}>
             ABOUT
           </NavLink>
         </li>
         <li>
-          <NavLink to="/events" onClick={scrollToTop}>
+          <NavLink to="/events" onClick={handleNavLinkClick}>
             EVENTS
           </NavLink>
         </li>
         <li>
-          <NavLink to="/sponsors" onClick={scrollToTop}>
+          <NavLink to="/sponsors" onClick={handleNavLinkClick}>
             SPONSORS
           </NavLink>
         </li>
         <li>
-          <NavLink to="/contact" onClick={scrollToTop}>
+          <NavLink to="/contact" onClick={handleNavLinkClick}>
             CONTACT
           </NavLink>
         </li>
