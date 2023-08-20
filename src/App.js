@@ -6,13 +6,15 @@ import Events from './components/Events/Events';
 import About from './components/About/About';
 import Sponsors from './components/Sponsors/Sponsors';
 import Contact from './components/Contact/Contact';
-
+import Gallery from './components/Gallary/Gallery';
 function App() {
   return (
     <div className="App">
       <Router>
         <Navbar />
         <Home/>
+        <Gallery/>
+       
         <Routes>
           <Route path="/home" element={<Home />} /> {/* Show Home component by default */}
           <Route path="/events" element={<Events />} />

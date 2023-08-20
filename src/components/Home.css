@@ -1,4 +1,4 @@
-/* About.css */
+
 @import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500&family=Kanit:ital,wght@1,600&family=Lobster&family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500;1,700&family=Lumanosimo&family=Merriweather:wght@300&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Oxanium:wght@500&family=Pacifico&family=Playfair+Display&family=Public+Sans:wght@100&family=Roboto+Mono:wght@100;400&family=Roboto:wght@500&family=Titan+One&display=swap');
 
 .text-container {
@@ -12,6 +12,7 @@
 }
 
 .text-container h1 {
+     margin-top: 10rem;
     font-size: 100px;
     color: rgba(225, 225, 225, 0.01);
     background-image: url("https://img.freepik.com/premium-photo/round-digital-button-backdrop_700248-12763.jpg?w=740");
@@ -42,14 +43,14 @@
 .timer-number {
   font-size: 36px;
   font-weight: bold;
-  background-image: linear-gradient(to right,#ff9812, #a4a0d4); 
+  background-image: linear-gradient(to right,#ff9812, #483bdd); 
   -webkit-background-clip: text;
   color: transparent;
 }
 
 .timer-label {
   font-size: 14px;
-  background-image: linear-gradient(to right,#7984ce, #f3980e); 
+  background-image: linear-gradient(to right,#4253be, #f3980e); 
   -webkit-background-clip: text;
   font-weight: bold;
   color: transparent;
@@ -57,7 +58,7 @@
 }
 .times-up {
   font-size: 30px;
-  background-image: linear-gradient(to right,#ff9812, #a4a0d4); 
+  background-image: linear-gradient(to right,#ff9812, #585299); 
   -webkit-background-clip: text;
   font-weight: bold;
   color: transparent; 
@@ -78,9 +79,10 @@
     }
 }
 
+
 @media (max-width: 768px) {
     .text-container h1 {
-        font-size: 60px;
+        font-size:60px;
     }
     .timer-box {
         display: flex;
@@ -92,14 +94,14 @@
       .timer-number {
         font-size: 20px;
         font-weight: bold;
-        background-image: linear-gradient(to right,#ff9812, #a4a0d4); 
+        background-image: linear-gradient(to right,#4253be, #f3980e); 
         -webkit-background-clip: text;
         color: transparent;
       }
       
       .timer-label {
         font-size: 10px;
-        background-image: linear-gradient(to right,#7984ce, #f3980e); 
+        background-image: linear-gradient(to right,#ff9812, #585299); 
         -webkit-background-clip: text;
         font-weight: bold;
         color: transparent;
@@ -107,8 +109,83 @@
       } 
 }
 
+
+.register-button {
+  top:3rem;
+  width: 180px;
+  height: 60px;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #143e64;
+  outline: none;
+  transition: 1s ease-in-out;
+  position: relative; 
+}
+
+.register-button svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  fill: none;
+  stroke: #f37b0b;
+  stroke-dasharray: 150 480;
+  stroke-dashoffset: 150;
+  transition: 1s ease-in-out;
+}
+
+.register-button:hover {
+  transition: 1s ease-in-out;
+}
+
+.register-button:hover svg {
+  stroke-dashoffset: -480;
+}
+
+.register-button span {
+  color: rgb(181, 189, 226);
+  font-size: 18px;
+  font-weight: 100;
+}
+
 @media (max-width: 480px) {
     .text-container h1 {
-        font-size: 50px;
+        font-size: 35px;
     }
+    .register-button {
+      top:5rem;
+      width: 180px;
+      height: 60px;
+      cursor: pointer;
+      background: transparent;
+      border: 1px solid #143e64;
+      outline: none;
+      transition: 1s ease-in-out;
+      position: relative; 
+    }
+    
+    .register-button svg {
+      position: absolute;
+      left: 0;
+      top: 0;
+      fill: none;
+      stroke: #f37b0b;
+      stroke-dasharray: 150 480;
+      stroke-dashoffset: 150;
+      transition: 1s ease-in-out;
+    }
+    
+    .register-button:hover {
+      transition: 1s ease-in-out;
+    }
+    
+    .register-button:hover svg {
+      stroke-dashoffset: -480;
+    }
+    
+    .register-button span {
+      color: rgb(181, 189, 226);
+      font-size: 18px;
+      font-weight: 100;
+    }
+
 }

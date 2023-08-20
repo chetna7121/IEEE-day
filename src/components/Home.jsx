@@ -2,6 +2,8 @@ import './Home.css';
 import React, { useEffect, useState } from "react";
 
 const Home = () => {
+ 
+  
   const calculateTimeLeft = () => {
     const targetDate = new Date("October 6, 2023 00:00:00").getTime();
     const now = new Date().getTime();
@@ -40,12 +42,27 @@ const Home = () => {
   });
 
   return (
+  
     <div className="text-container">
-      <h1>IEEE DAY'22</h1>
+      <h1>IEEE DAY</h1>
+      <h1>CELEBRATIONS'23</h1>
       <div className="timer-container">
         {timerComponents.length ? timerComponents : <span className="times-up">See you all!</span>}
       </div>
+       <div className="container">
+      <div className="center">
+        <button className="register-button">
+          <svg width="180px" height="60px" viewBox="0 0 180 60" className="border">
+            <polyline points="179,1 179,59 1,59 1,1 179,1" className="bg-line" />
+            <polyline points="179,1 179,59 1,59 1,1 179,1" className="hl-line" />
+          </svg>
+          <span>Register Now</span>
+        </button>
+      </div>
     </div>
+   
+    </div>
+    
   );
 };
 

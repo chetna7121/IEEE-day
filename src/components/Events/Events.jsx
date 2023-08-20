@@ -51,7 +51,8 @@ const Events = () => {
   return (
     <div>
       <div className="day-heading">
-        <h3>DAY 1</h3>
+        <h3>EVENTS <hr /></h3>
+        <h4>DAY 1</h4>
       </div>
       <div className="event-cards">
         {day1EventList.map((event, index) => (
@@ -65,7 +66,7 @@ const Events = () => {
       </div>
 
       <div className="day-heading">
-        <h3>DAY 2</h3>
+        <h4>DAY 2 <hr /></h4>
       </div>
       <div className="event-cards">
         {day2EventList.map((event, index) => (
@@ -79,7 +80,7 @@ const Events = () => {
       </div>
 
       <div className="day-heading">
-        <h3>DAY 3</h3>
+        <h4>DAY 3 <hr /></h4>
       </div>
       <div className="event-cards">
         {day3EventList.map((event, index) => (
