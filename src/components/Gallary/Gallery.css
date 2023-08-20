@@ -37,6 +37,11 @@
     width: 35%; 
     margin-right: 10px; 
   }
+  .logo-marquee {
+    display: flex;
+    animation: marquee 10s linear infinite; 
+  }
+  
 }
 
 @media (max-width: 576px) {
@@ -49,4 +54,9 @@
     width: 50%;
     margin-right: 15px; 
   }
+  .logo-marquee {
+    display: flex;
+    animation: marquee 10s linear infinite; 
+  }
+  
 }
