@@ -1,12 +1,14 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
+
 import Home from './components/Home';
 import Events from './components/Events/Events';
 import About from './components/About/About';
 import Sponsors from './components/Sponsors/Sponsors';
 import Contact from './components/Contact/Contact';
 import Gallery from './components/Gallary/Gallery';
+
 function App() {
   return (
     <div className="App">

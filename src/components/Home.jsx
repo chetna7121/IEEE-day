@@ -2,15 +2,12 @@ import './Home.css';
 import React, { useEffect, useState } from "react";
 
 const Home = () => {
- 
-  
+
   const calculateTimeLeft = () => {
     const targetDate = new Date("October 6, 2023 00:00:00").getTime();
     const now = new Date().getTime();
     const difference = targetDate - now;
-
     const timeLeft = {};
-
     if (difference > 0) {
       timeLeft.days = Math.floor(difference / (1000 * 60 * 60 * 24));
       timeLeft.hours = Math.floor((difference / (1000 * 60 * 60)) % 24);
@@ -21,7 +18,6 @@ const Home = () => {
   };
 
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
-
   useEffect(() => {
     const timer = setTimeout(() => {
       setTimeLeft(calculateTimeLeft());

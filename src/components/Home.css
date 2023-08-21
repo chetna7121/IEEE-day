@@ -159,7 +159,6 @@
 }
 
     .text-container h1 {
-      
         font-size: 35px;
     }
     .register-button {
@@ -168,7 +167,7 @@
       height: 60px;
       cursor: pointer;
       background: transparent;
-      border: 1px solid #4e76b8;
+      border: 2px solid #4e76b8;
       outline: none;
       transition: 1s ease-in-out;
       position: relative; 
@@ -179,7 +178,7 @@
       left: 0;
       top: 0;
       fill: none;
-      stroke: #f37b0b;
+      stroke: #ff7b00;
       stroke-dasharray: 150 480;
       stroke-dashoffset: 150;
       transition: 1s ease-in-out;
@@ -194,9 +193,9 @@
     }
     
     .register-button span {
-      color: rgb(224, 226, 236);
+      color: rgb(219, 222, 236);
       font-size: 20px;
-      font-weight: 100;
+      font-weight:bold;
     }
 
 }
