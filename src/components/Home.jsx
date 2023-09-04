@@ -64,7 +64,7 @@ const Home = () => {
 
 <div className="custom-countup2">
   <CountUp end={20} duration={2.5}    />
- <h4>Alumini</h4> 
+ <h4>Alumni</h4> 
 </div >
 
 
