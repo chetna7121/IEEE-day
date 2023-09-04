@@ -1,8 +1,9 @@
 import './Home.css';
+import CountUp from 'react-countup';
 import React, { useEffect, useState } from "react";
 
 const Home = () => {
-
+  console.log("Home component rendered");
   const calculateTimeLeft = () => {
     const targetDate = new Date("October 6, 2023 00:00:00").getTime();
     const now = new Date().getTime();
@@ -45,8 +46,7 @@ const Home = () => {
       <div className="timer-container">
         {timerComponents.length ? timerComponents : <span className="times-up">See you all!</span>}
       </div>
-       <div className="container">
-      <div className="center">
+       <div className="button-container">
         <button className="register-button">
           <svg width="180px" height="60px" viewBox="0 0 180 60" className="border">
             <polyline points="179,1 179,59 1,59 1,1 179,1" className="bg-line" />
@@ -54,10 +54,18 @@ const Home = () => {
           </svg>
           <span>Register Now</span>
         </button>
-      </div>
     </div>
-   
-    </div>
+    <div className="custom-countup1">
+  <CountUp end={200} duration={2.5}    />
+ <h4>IEEE Members</h4> 
+</div >
+<div className="custom-countup2">
+  <CountUp end={20} duration={2.5}    />
+ <h4>Alumini</h4> 
+</div >
+
+
+   </div>
     
   );
 };

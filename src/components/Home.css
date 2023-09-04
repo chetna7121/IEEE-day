@@ -64,6 +64,67 @@
   color: transparent; 
 }
 
+.register-button {
+  top:-3rem;
+  width: 180px;
+  height: 60px;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #143e64;
+  outline: none;
+  transition: 1s ease-in-out;
+  position: relative; 
+}
+
+.register-button svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  fill: none;
+  stroke: #f37b0b;
+  stroke-dasharray: 150 480;
+  stroke-dashoffset: 150;
+  transition: 1s ease-in-out;
+}
+
+.register-button:hover {
+  transition: 1s ease-in-out;
+}
+
+.register-button:hover svg {
+  stroke-dashoffset: -480;
+}
+
+.register-button span {
+  color: rgb(181, 189, 226);
+  font-size: 18px;
+  font-weight: 100;
+}
+.custom-countup1 {
+  position:absolute;
+  margin-top: 35rem;
+  text-align: center;
+  left:20rem;
+  color: rgb(224, 201, 179);
+  font-size: 44px;
+}
+.custom-countup1 h4 {
+  margin: 0;
+  font-size: 15px; 
+}
+.custom-countup2 {
+  position:absolute;
+  margin-top: 35rem;
+  text-align: center;
+  right:20rem;
+  color: rgb(224, 201, 179);
+  font-size: 44px;
+}
+.custom-countup2 h4 {
+  margin: 0; 
+  font-size: 15px;
+}
+
 @keyframes animate {
     0%, 100% {
         background-position: left top;
@@ -146,6 +207,46 @@
   font-size: 18px;
   font-weight: 100;
 }
+.custom-countup1 {
+   
+  margin-top: 32rem;
+  text-align: center;
+  left:4rem;
+  color: rgb(224, 201, 179);
+  font-size: 35px;
+}
+.custom-countup1 h4 {
+  margin: 0;
+  font-weight: lighter;
+  color: aliceblue;
+  font-size: 15px; 
+}
+.custom-countup1 hr {
+  margin: 5px; 
+  width:auto;
+  height:0%;
+}
+
+.custom-countup2 {
+  position:absolute;
+  margin-top: 32rem;
+  text-align: center;
+  right:4rem;
+  color: rgb(224, 201, 179);
+  font-size: 35px;
+}
+.custom-countup2 h4 {
+  margin: 0; 
+  font-size: 15px;
+  font-weight: lighter;
+  color: aliceblue;
+}
+.custom-countup2 hr {
+  margin: 5px; 
+  width:auto;
+}
+
+
 
 @media (max-width: 480px) {
   .text-container {
@@ -198,4 +299,42 @@
       font-weight:bold;
     }
 
+    .custom-countup1 {
+   
+      margin-top: 33rem;
+      text-align: center;
+      left:4rem;
+      color: rgb(224, 201, 179);
+      font-size: 27px;
+    }
+    .custom-countup1 h4 {
+      margin: 0;
+      font-weight: lighter;
+      color: aliceblue;
+      font-size: 15px; 
+    }
+    .custom-countup1 hr {
+      margin: 5px; 
+      width:auto;
+      height:0%;
+    }
+    
+    .custom-countup2 {
+      position:absolute;
+      margin-top: 33rem;
+      text-align: center;
+      right:4rem;
+      color: rgb(224, 201, 179);
+      font-size: 27px;
+    }
+    .custom-countup2 h4 {
+      margin: 0; 
+      font-size: 15px;
+      font-weight: lighter;
+      color: aliceblue;
+    }
+    .custom-countup2 hr {
+      margin: 5px; 
+      width:auto;
+    }
 }

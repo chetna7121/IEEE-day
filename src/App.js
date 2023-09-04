@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
-
 import Home from './components/Home';
 import Events from './components/Events/Events';
 import About from './components/About/About';
@@ -13,14 +12,13 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Navbar />
+      <Navbar />
         <Home/>
         <Gallery/>
-       
         <Routes>
           <Route path="/home" element={<Home />} /> {/* Show Home component by default */}
-          <Route path="/events" element={<Events />} />
           <Route path="/about" element={<About />} />
+          <Route path="/events" element={<Events />} />
           <Route path="/sponsors" element={<Sponsors />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>

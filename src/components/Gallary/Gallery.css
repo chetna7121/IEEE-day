@@ -1,13 +1,13 @@
 
 .gallery-container {
-  margin-top: -7rem;
+  margin-top: 2rem;
   overflow: hidden;
   width: 100%;
 }
 
 .logo-marquee {
   display: flex;
-  animation: marquee 10s linear infinite; 
+  animation: marquee 15s linear infinite; 
 }
 
 @keyframes marquee {
@@ -21,7 +21,7 @@
 }
 
 .logo-marquee img {
-  width: 20%; 
+  width: 15%; 
   height: auto;
   margin-right: 20px; 
 }
@@ -29,7 +29,7 @@
 /* Media Queries */
 @media (max-width: 768px) {
   .gallery-container {
-    margin-top: -5rem;
+    margin-top: 5rem;
     overflow: hidden;
     width: 100%;
   }
@@ -46,7 +46,7 @@
 
 @media (max-width: 478px) {
   .gallery-container {
-    margin-top: -5rem;
+    margin-top: -2rem;
     overflow: hidden;
     width: 100%;
   }

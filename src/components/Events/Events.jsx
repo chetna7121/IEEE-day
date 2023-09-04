@@ -1,6 +1,5 @@
 import React from 'react';
 import './Events.css';
-
 const Events = () => {
   const day1EventList = [
     {
@@ -49,9 +48,12 @@ const Events = () => {
   ];
 
   return (
+   
     <div>
+
       <div className="day-heading">
         <h3>EVENTS <hr /></h3>
+        
         <h4>DAY 1</h4>
       </div>
       <div className="event-cards">

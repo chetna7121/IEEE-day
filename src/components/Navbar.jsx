@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './Navbar.css';
 import { NavLink } from 'react-router-dom';
 
+
 const Navbar = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
@@ -9,14 +10,21 @@ const Navbar = () => {
     setIsSidebarOpen(!isSidebarOpen);
   };
 
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
-
   const handleNavLinkClick = () => {
     toggleSidebar();
-    scrollToTop(); 
+    scrollToTop();
   };
+
+  const scrollToTop = () => {
+    const scrollOptions = {
+      top: 0,
+      left: 0,
+      behavior: "smooth",
+    };
+    window.scrollTo(scrollOptions);
+  };
+
+
   
   return (
     <nav className="navbar">
