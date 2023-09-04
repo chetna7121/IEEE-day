@@ -46,7 +46,7 @@
 
 @media (max-width: 478px) {
   .gallery-container {
-    margin-top: -2rem;
+    margin-top: -1rem;
     overflow: hidden;
     width: 100%;
   }

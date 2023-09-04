@@ -253,7 +253,7 @@
     height: 100vh;
     width: 100vw;
     display: flex;
-    margin-top: -9rem;
+    margin-top: -12rem;
     justify-content: center;
     align-items: center;
     flex-direction: column; 
@@ -263,12 +263,12 @@
         font-size: 35px;
     }
     .register-button {
-      top:5rem;
+      top:4rem;
       width: 180px;
       height: 60px;
       cursor: pointer;
       background: transparent;
-      border: 2px solid #4e76b8;
+      border: 2px solid #4cb2d1;
       outline: none;
       transition: 1s ease-in-out;
       position: relative; 
@@ -294,7 +294,7 @@
     }
     
     .register-button span {
-      color: rgb(219, 222, 236);
+      color: rgb(167, 177, 219);
       font-size: 20px;
       font-weight:bold;
     }
@@ -303,14 +303,14 @@
    
       margin-top: 33rem;
       text-align: center;
-      left:4rem;
+      left:3rem;
       color: rgb(224, 201, 179);
-      font-size: 27px;
+      font-size: 25px;
     }
     .custom-countup1 h4 {
       margin: 0;
       font-weight: lighter;
-      color: aliceblue;
+      color: rgb(205, 225, 243);
       font-size: 15px; 
     }
     .custom-countup1 hr {
@@ -331,7 +331,7 @@
       margin: 0; 
       font-size: 15px;
       font-weight: lighter;
-      color: aliceblue;
+      color: rgb(205, 225, 243);
     }
     .custom-countup2 hr {
       margin: 5px; 
