@@ -15,6 +15,8 @@ function App() {
       <Navbar />
         <Home/>
         <Gallery/>
+        <br />
+        <br />
         <Routes>
           <Route path="/home" element={<Home />} /> {/* Show Home component by default */}
           <Route path="/about" element={<About />} />

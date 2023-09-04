@@ -177,7 +177,7 @@
   height: 60px;
   cursor: pointer;
   background: transparent;
-  border: 1px solid #143e64;
+  border: 1px solid #0d3681;
   outline: none;
   transition: 1s ease-in-out;
   position: relative; 
@@ -245,7 +245,12 @@
   margin: 5px; 
   width:auto;
 }
-
+.vl {
+  position:absolute;
+  border-left: 1px solid #85868b; 
+  height: 9vh; 
+  margin-top:32rem;
+}
 
 
 @media (max-width: 480px) {
@@ -260,7 +265,7 @@
 }
 
     .text-container h1 {
-        font-size: 35px;
+        font-size: 37px;
     }
     .register-button {
       top:4rem;
@@ -268,7 +273,7 @@
       height: 60px;
       cursor: pointer;
       background: transparent;
-      border: 2px solid #1e4391;
+      border: 2px solid #172d5c;
       outline: none;
       transition: 1s ease-in-out;
       position: relative; 
@@ -301,9 +306,9 @@
 
     .custom-countup1 {
    
-      margin-top: 33rem;
+      margin-top: 32rem;
       text-align: center;
-      left:3rem;
+      left:4rem;
       color: rgb(224, 201, 179);
       font-size: 25px;
     }
@@ -321,7 +326,7 @@
     
     .custom-countup2 {
       position:absolute;
-      margin-top: 33rem;
+      margin-top: 32rem;
       text-align: center;
       right:4rem;
       color: rgb(224, 201, 179);
@@ -337,4 +342,11 @@
       margin: 5px; 
       width:auto;
     }
+    .vl {
+      position:absolute;
+      border-left: 1px solid #85868b; 
+      height: 9vh; 
+      margin-top:32rem;
+    }
+    
 }

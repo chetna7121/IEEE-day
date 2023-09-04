@@ -56,9 +56,12 @@ const Home = () => {
         </button>
     </div>
     <div className="custom-countup1">
-  <CountUp end={200} duration={2.5}    />
- <h4>IEEE Members</h4> 
+  <CountUp end={110} duration={2.5}    />
+ <h4> Members</h4> 
 </div >
+ <div className="vl"></div>
+              
+
 <div className="custom-countup2">
   <CountUp end={20} duration={2.5}    />
  <h4>Alumini</h4> 
