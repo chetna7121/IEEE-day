@@ -245,12 +245,6 @@
   margin: 5px; 
   width:auto;
 }
-.vl {
-  position:absolute;
-  border-left: 1px solid #85868b; 
-  height: 9vh; 
-  margin-top:32rem;
-}
 
 
 @media (max-width: 480px) {
