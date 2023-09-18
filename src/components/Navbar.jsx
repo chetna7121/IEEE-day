@@ -48,6 +48,11 @@ const Navbar = () => {
           </NavLink>
         </li>
         <li>
+          <NavLink to="/collab" onClick={handleNavLinkClick}>
+            COLLABORATOR
+          </NavLink>
+        </li>
+        <li>
           <NavLink to="/sponsors" onClick={handleNavLinkClick}>
             SPONSORS
           </NavLink>

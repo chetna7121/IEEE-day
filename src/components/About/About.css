@@ -52,10 +52,10 @@
 
 .about-box:hover {
   transform: scale(1.05);
-  border: 2px solid rgba(0, 0, 0, 0.7); 
   transform: translateY(-10px);
-  background-color: #000000;
-  box-shadow: 1px 10px 10px rgba(0, 195, 255, 0.1);
+  background-color: #384552;
+  color:#dee2eb;
+  
 }
 
 .about-description {
@@ -73,6 +73,7 @@
 .about-description.expanded {
   max-height: none;
   overflow: visible;
+  
 }
 .about-title {
   font-size: 20px;

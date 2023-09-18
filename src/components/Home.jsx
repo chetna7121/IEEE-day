@@ -41,6 +41,9 @@ const Home = () => {
   return (
   
     <div className="text-container">
+      <div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
       <h1>IEEE DAY</h1>
       <h1>CELEBRATIONS'23</h1>
       <div className="timer-container">
