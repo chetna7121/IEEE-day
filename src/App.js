@@ -14,44 +14,14 @@ import Collab from './components/Collab/Collab';
 function App() {
   return (
     <div className="App">
-      <div class="snowflakes" aria-hidden="true">
-  <div class="snowflake">
-  ❅
-  </div>
-  <div class="snowflake">
-  ❅
-  </div>
-  <div class="snowflake">
-  ❆
-  </div>
-  <div class="snowflake">
-  ❄
-  </div>
-  <div class="snowflake">
-  ❅
-  </div>
-  <div class="snowflake">
-  ❆
-  </div>
-  <div class="snowflake">
-  ❄
-  </div>
-  <div class="snowflake">
-  ❅
-  </div>
-  <div class="snowflake">
-  ❆
-  </div>
-  <div class="snowflake">
-  ❄
-  </div>
-</div>
+     
       <Router>
       <Navbar />
         <Home/>
         <Gallery/>
         <br />
         <br />
+        
 
         <Routes>
           <Route path="/home" element={<Home />} /> {/* Show Home component by default */}
