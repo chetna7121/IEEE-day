@@ -51,38 +51,7 @@ const Events = () => {
    
     <div>
       <div className="day-heading">
-      <div class="snowflakes" aria-hidden="true">
-  <div class="snowflake">
-  ❅
-  </div>
-  <div class="snowflake">
-  ❅
-  </div>
-  <div class="snowflake">
-  ❅
-  </div>
-  <div class="snowflake">
-  ❅
-  </div>
-  <div class="snowflake">
-  ❅
-  </div>
-  <div class="snowflake">
-  ❅
-  </div>
-  <div class="snowflake">
-  ❅
-  </div>
-  <div class="snowflake">
-  ❅
-  </div>
-  <div class="snowflake">
-  ❅
-  </div>
-  <div class="snowflake">
-  ❅
-  </div>
-</div>
+      
         <h3>EVENTS <hr /></h3>
         
         <h4>DAY 1</h4>
