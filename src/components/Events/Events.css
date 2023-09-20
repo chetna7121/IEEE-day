@@ -26,10 +26,12 @@
   width: 100%;
   height: 100%;
   border-radius: 25px;
-  background-image: url('https://img.freepik.com/free-vector/minimal-geometric-stripe-shape-background_1409-1014.jpg?size=626&ext=jpg&ga=GA1.2.2094091909.1690382277&semt=ais'); 
+  background-image: url('https://tse2.mm.bing.net/th?id=OIP.j8W0BT0_NNgn3j4XR_-VygFGC_&pid=Api&P=0&h=180'); 
   background-size: cover;
   background-position: center;
   opacity: 0.9; 
+  animation: glitch 1s infinite alternate;
+  transform-origin: center;
   transition: opacity 0.3s ease-in-out;
 }
 

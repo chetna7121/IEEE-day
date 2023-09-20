@@ -3,16 +3,19 @@ import './Events.css';
 const Events = () => {
   const day1EventList = [
     {
+
       title: 'Event 1',
       date: 'August 5, 2023',
       location: 'Venue A',
       description: 'desc',
+      backgroundImage: '',
     },
     {
       title: 'Event 2',
       date: 'August 5, 2023',
       location: 'Venue',
       description: 'desc',
+      backgroundImage: '',
     },
   ];
 
@@ -22,12 +25,15 @@ const Events = () => {
       date: 'August 6, 2023',
       location: 'Venue',
       description: 'desc',
+      backgroundImage: '',
     },
     {
       title: 'Event 4',
       date: 'August 6, 2023',
       location: 'Venue',
-      description: 'desc'
+      description: 'desc',
+      backgroundImage: '',
+    
     },
   ];
 
@@ -37,12 +43,14 @@ const Events = () => {
       date: 'August 7, 2023',
       location: 'Venue',
       description: 'desc',
+      backgroundImage: '',
     },
     {
       title: 'Event 6',
       date: 'August 7, 2023',
       location: 'Venue',
       description: 'desc',
+      backgroundImage: '',
     },
    
   ];
@@ -58,7 +66,8 @@ const Events = () => {
       </div>
       <div className="event-cards">
         {day1EventList.map((event, index) => (
-          <div key={index} className="card">
+          <div key={index} className="card" style={{ backgroundImage: `url(${event.backgroundImage})` }}
+          >
             <h1 className="card-title">{event.title}</h1>
             <p className="card-date">{event.date}</p>
             <p className="card-location">{event.location}</p>
@@ -72,7 +81,9 @@ const Events = () => {
       </div>
       <div className="event-cards">
         {day2EventList.map((event, index) => (
-          <div key={index} className="card">
+          <div key={index} className="card" style={{ backgroundImage: `url(${event.backgroundImage})` }}
+
+          >
             <h1 className="card-title">{event.title}</h1>
             <p className="card-date">{event.date}</p>
             <p className="card-location">{event.location}</p>
@@ -86,7 +97,8 @@ const Events = () => {
       </div>
       <div className="event-cards">
         {day3EventList.map((event, index) => (
-          <div key={index} className="card">
+          <div key={index} className="card" style={{ backgroundImage: `url(${event.backgroundImage})` }}
+          >
             <h1 className="card-title">{event.title}</h1>
             <p className="card-date">{event.date}</p>
             <p className="card-location">{event.location}</p>

@@ -6,28 +6,32 @@ const Contact = () => {
     {
       name: 'Ritika Malik',
       position: 'Chairperson',
-      email: 'ritika@example.com',
+      email: 'ritikamalik100102@gmail.com',
       image: 'http://edu.ieee.org/in-must/wp-content/uploads/sites/615/Ritika-Malik1.jpg', // Replace with the actual image path
     },
     {
       name: 'Trrupti Singh',
       position: 'Vice Chairperson',
+      email:'trruptisingh@gmail.com',
       image: 'http://edu.ieee.org/in-must/wp-content/uploads/sites/615/TRRUPTI-2.jpeg', // Replace with the actual image path
     },
     {
       name: 'Riya Choudhary ',
       position: 'Secretary',
+      email:'choudharyriya2308@gmail.com',
       image: 'http://edu.ieee.org/in-must/wp-content/uploads/sites/615/Riya-Choudhary-1.jpeg', // Replace with the actual image path
     },
     {
       name: 'Shruti Agrawal',
       position: 'Treasurer ',
+      email:'shrutioriya@gmail.com ',
       image: 'http://edu.ieee.org/in-must/wp-content/uploads/sites/615/Shruti-Agrawal-.jpg', // Replace with the actual image path
     },
    
     {
       name: 'Chetna Mishra',
       position: 'Web Master',  
+      email:'mchetna28@gmail.com',
       image: 'http://edu.ieee.org/in-must/wp-content/uploads/sites/615/Chetna-Mishra-1.jpg', // Replace with the actual image path
     },
 

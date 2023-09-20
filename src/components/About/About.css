@@ -80,6 +80,13 @@
   margin-bottom: 10px;
   color: #ffe9c8;
 }
+.about-image {
+  width: 100%; 
+  height: auto; 
+  border-radius: 5%; 
+  margin-bottom: 10px;
+  object-fit:cover; 
+}
 
 h3 {
   text-align: center;
