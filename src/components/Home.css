@@ -268,7 +268,7 @@
       height: 60px;
       cursor: pointer;
       background: transparent;
-      border: 2px solid #172d5c;
+      border: 2px solid #c7d8fd;
       outline: none;
       transition: 1s ease-in-out;
       position: relative; 
@@ -294,7 +294,7 @@
     }
     
     .register-button span {
-      color: rgb(167, 186, 196);
+      color: rgb(220, 231, 236);
       font-size: 20px;
       font-weight:bold;
     }

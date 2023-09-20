@@ -53,15 +53,15 @@
 .about-box:hover {
   transform: scale(1.05);
   transform: translateY(-10px);
-  background-color: #384552;
-  color:#dee2eb;
+  background-color: #6a7180;
+  
   
 }
 
 .about-description {
   font-size: 13px;
   margin-top: 10px;
-  color: #b0b2b6;
+  color: #ffffff;
   max-height: 80px; 
   max-height: none;
   overflow: visible;
@@ -73,6 +73,8 @@
 .about-description.expanded {
   max-height: none;
   overflow: visible;
+  color:#ffffff;
+
   
 }
 .about-title {

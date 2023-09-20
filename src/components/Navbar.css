@@ -6,7 +6,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-  color: rgb(122, 108, 226);
+  color: rgb(151, 193, 233);
 }
 
 .navbar-toggle {
@@ -34,7 +34,7 @@
 .navbar-links a {
   text-decoration: none;
   font-size: 15px;
-  color: rgb(122, 108, 226);
+  color: rgb(151, 193, 233);
   transition: color 0.3s ease; 
 }
 
@@ -93,11 +93,12 @@
   .navbar-links li {
     padding: 7px;
     margin: 0.5rem 0;
+    
   }
   .navbar-links a {
     text-decoration: none;
     font-size: 13px;
     align-items: center;
-    color: rgb(155, 147, 233);
+    color: rgb(151, 193, 233);
   }
 }
