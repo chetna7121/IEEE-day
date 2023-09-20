@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/IEEE-day/static/css/main.63eb4a9d.css",
+    "main.css": "/IEEE-day/static/css/main.170baa93.css",
     "main.js": "/IEEE-day/static/js/main.fc107b49.js",
     "static/js/787.28cb0dcd.chunk.js": "/IEEE-day/static/js/787.28cb0dcd.chunk.js",
     "static/media/img17.jpg": "/IEEE-day/static/media/img17.1867e6212f972b682fb1.jpg",
@@ -29,12 +29,12 @@
     "static/media/img24.jpg": "/IEEE-day/static/media/img24.2767f0277fb870eefb18.jpg",
     "static/media/img21.jpg": "/IEEE-day/static/media/img21.6900834276eb2b391859.jpg",
     "index.html": "/IEEE-day/index.html",
-    "main.63eb4a9d.css.map": "/IEEE-day/static/css/main.63eb4a9d.css.map",
+    "main.170baa93.css.map": "/IEEE-day/static/css/main.170baa93.css.map",
     "main.fc107b49.js.map": "/IEEE-day/static/js/main.fc107b49.js.map",
     "787.28cb0dcd.chunk.js.map": "/IEEE-day/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.63eb4a9d.css",
+    "static/css/main.170baa93.css",
     "static/js/main.fc107b49.js"
   ]
 }
