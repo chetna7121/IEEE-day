@@ -12,9 +12,10 @@
 }
 
 .text-container h1 {
+  
    margin-top: 10rem;
     font-size: 100px;
-    color: rgba(225, 225, 225, 0.01);
+    color: transparent; 
     background-image: url("https://img.freepik.com/premium-photo/round-digital-button-backdrop_700248-12763.jpg?w=740");
     background-repeat: repeat;
     -webkit-background-clip: text;
@@ -22,6 +23,7 @@
     text-align: center;
     text-transform: uppercase;
     font-weight: 900;
+    
     margin: 0;
   
 }
@@ -261,7 +263,10 @@
 
     .text-container h1 {
         font-size: 37px;
+        
+ 
     }
+    
     .register-button {
       top:4rem;
       width: 180px;
