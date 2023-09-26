@@ -31,6 +31,7 @@ const About = () => {
       <div className="day-heading">
         <h3>ABOUT IEEE <hr /></h3>
       </div>
+     
       <div className="About-boxes"> {/* Updated class name */}
         {AboutList.map((about, index) => (
           <div

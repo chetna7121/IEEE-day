@@ -39,9 +39,11 @@ const Contact = () => {
   ];
 
   return (
-    <div className="contact-container">
-       <h3>CONTACT <hr /></h3>
-       <h4>EXECOM 2023-2024</h4>
+    
+   <div className="day-heading">
+    <h3>CONTACT<hr /></h3>
+    <h4>EXECOM 2023-2024</h4>
+ <div className="contact-container">
       {members.map((member, index) => (
         <div key={index} className="contact-card">
            
@@ -58,7 +60,8 @@ const Contact = () => {
           </p>
         </div>
       ))}
-    </div>
+   </div>
+   </div>
   );
 };
 

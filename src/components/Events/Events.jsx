@@ -59,7 +59,7 @@ const Events = () => {
    
     <div>
       <div className="day-heading">
-      
+     
         <h3>EVENTS <hr /></h3>
         
         <h4>DAY 1</h4>
@@ -77,6 +77,7 @@ const Events = () => {
       </div>
 
       <div className="day-heading">
+     
         <h4>DAY 2 <hr /></h4>
       </div>
       <div className="event-cards">
@@ -93,6 +94,7 @@ const Events = () => {
       </div>
 
       <div className="day-heading">
+    
         <h4>DAY 3 <hr /></h4>
       </div>
       <div className="event-cards">

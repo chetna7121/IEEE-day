@@ -42,6 +42,7 @@ const Home = () => {
   
     <div className="text-container">
       
+
       <h1>IEEE DAY</h1>
       <h1>CELEBRATIONS'23</h1>
       <div className="timer-container">

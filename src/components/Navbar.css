@@ -9,6 +9,7 @@
   color: rgb(151, 193, 233);
 }
 
+
 .navbar-toggle {
   font-size: 1.5rem;
   cursor: pointer;
@@ -29,6 +30,7 @@
   margin: 0 1rem;
   transition: color 0.3s ease, transform 0.3s ease;
   position: relative; 
+
 }
 
 .navbar-links a {
@@ -47,8 +49,8 @@
   bottom: -5px; 
   left: 50%; 
   transform: translateX(-50%);
-  background-color: 0.3s ease;
-  transition: width 0.3s ease; 
+  transition: width 0.3s ease, background-color 0.3s ease;
+
 }
 
 .navbar-links li:hover::before {
@@ -102,3 +104,6 @@
     color: rgb(151, 193, 233);
   }
 }
+
+
+

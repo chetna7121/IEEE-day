@@ -4,6 +4,7 @@
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
+
     padding: 20px;
   }
   
@@ -32,9 +33,16 @@
   }
  
   h3 {
-    margin: 0;
-    font-size: 18px;
-    color: #333;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'PT Serif', serif;
+    color: #ffe9c8;
+    animation: moveText 2s infinite alternate;
+  }
+  hr{
+    margin-top:1rem;
+    width:4rem;
   }
   h4{
     font-family: 'Rubik', sans-serif;
@@ -56,8 +64,12 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    transition: transform 0.3s ease-in-out; /* Add a transition for the transform property */
   }
   
+  .profile-image img:hover {
+    transform: scale(1.1); /* Scale the image up slightly on hover */
+  }
   h5 {
     margin: 0;
     font-size: 18px;
