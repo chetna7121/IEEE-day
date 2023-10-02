@@ -28,8 +28,8 @@ const Navbar = () => {
   
   return (
     <nav className="navbar">
-         
-
+         <div id="stars"></div>
+  
       <div className="navbar-toggle" onClick={toggleSidebar}>
         <span className="navbar-toggle-icon">&#9776;</span>
       </div>
