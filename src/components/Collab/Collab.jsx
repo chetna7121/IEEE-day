@@ -3,9 +3,9 @@ import './Collab.css';
 const Collab = () => {
     const CollabList = [
         {
-          title: 'IEEE BITS PILANI',
-          description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+          title: 'IEEE BITS PILANI STUDENT CHAPTER',
+          img:"https://ieee-website-one.vercel.app/assets/images/VectorIEEE_logo_final.png",
+          description:'IEEE BPSC at BITS Pilani serves as a student-driven center for tech innovation, research, and STEM involvement. Their inclusive platform supports learning, networking, and project work, nurturing creativity and critical thinking.'
         },
         
       
@@ -26,6 +26,8 @@ const Collab = () => {
                 onMouseEnter={() => setExpandedIndex(index)}
                 onMouseLeave={() => setExpandedIndex(null)}
               >
+                           <img className="collab-image" src={collab.img} />
+
                 <h1 className="collab-title">{collab.title}</h1>
                 <p className="collab-description">{collab.description}</p>
               </div>

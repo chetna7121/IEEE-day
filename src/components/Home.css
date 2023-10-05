@@ -16,7 +16,7 @@
    margin-top: 10rem;
     font-size: 100px;
     color: transparent; 
-    background-image: url("https://img.freepik.com/premium-photo/round-digital-button-backdrop_700248-12763.jpg?w=740");
+    background-image: url("https://img.freepik.com/premium-photo/3d-rendering-cpu-data-flow-circuit-board-electronic-background-blue_288179-336.jpg?size=626&ext=jpg");
     background-repeat: repeat;
     -webkit-background-clip: text;
     animation: animate 10s ease-in-out infinite;
@@ -45,14 +45,14 @@
 .timer-number {
   font-size: 36px;
   font-weight: bold;
-  background-image: linear-gradient(to right,#ff9812, #483bdd); 
+  background-image: linear-gradient(to right,#a9d1e9, #dfc596); 
   -webkit-background-clip: text;
   color: transparent;
 }
 
 .timer-label {
   font-size: 14px;
-  background-image: linear-gradient(to right,#4253be, #f3980e); 
+  background-image: linear-gradient(to right,#a9d1e9, #dfc596); 
   -webkit-background-clip: text;
   font-weight: bold;
   color: transparent;
@@ -60,7 +60,7 @@
 }
 .times-up {
   font-size: 30px;
-  background-image: linear-gradient(to right,#ff9812, #585299); 
+  background-image: linear-gradient(to right,#a9d1e9, #dfc596); 
   -webkit-background-clip: text;
   font-weight: bold;
   color: transparent; 
@@ -107,7 +107,7 @@
   margin-top: 35rem;
   text-align: center;
   left:20rem;
-  color: rgb(224, 201, 179);
+  color: rgb(211, 235, 247);
   font-size: 44px;
 }
 .custom-countup1 h4 {
@@ -157,14 +157,14 @@
       .timer-number {
         font-size: 20px;
         font-weight: bold;
-        background-image: linear-gradient(to right,#4253be, #f3980e); 
+        background-image: linear-gradient(to right,#a9d1e9, #dfc596); 
         -webkit-background-clip: text;
         color: transparent;
       }
       
       .timer-label {
         font-size: 10px;
-        background-image: linear-gradient(to right,#ff9812, #585299); 
+        background-image: linear-gradient(to right,#a9d1e9, #dfc596); 
         -webkit-background-clip: text;
         font-weight: bold;
         color: transparent;
