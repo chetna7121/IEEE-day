@@ -5,7 +5,7 @@ import React, { useEffect, useState } from "react";
 const Home = () => {
   console.log("Home component rendered");
   const calculateTimeLeft = () => {
-    const targetDate = new Date("October 6, 2023 00:00:00").getTime();
+    const targetDate = new Date("October 17, 2023 00:00:00").getTime();
     const now = new Date().getTime();
     const difference = targetDate - now;
     const timeLeft = {};

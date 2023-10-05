@@ -4,7 +4,7 @@
 .text-container {
     height: 100vh;
     width: 100vw;
-    display: flex;
+    display:flex;
     margin-top: -7rem;
     justify-content: center;
     align-items: center;
@@ -19,11 +19,10 @@
     background-image: url("https://img.freepik.com/premium-photo/round-digital-button-backdrop_700248-12763.jpg?w=740");
     background-repeat: repeat;
     -webkit-background-clip: text;
-    animation: animate 15s ease-in-out infinite;
+    animation: animate 10s ease-in-out infinite;
     text-align: center;
     text-transform: uppercase;
     font-weight: 900;
-    
     margin: 0;
   
 }
@@ -273,7 +272,7 @@
       width: 180px;
       height: 60px;
       cursor: pointer;
-      background: rgb(26, 29, 34);
+      background: rgb(22, 31, 48);
       border: 1px solid #4c82e7;
       outline: none;
       transition: 1s ease-in-out;
