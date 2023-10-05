@@ -14,19 +14,15 @@ import Collab from './components/Collab/Collab';
 function App() {
   return (
     <div className="App">
-     
       <Router>
       <Navbar />
         <Home/>
         <Gallery/>
         <br />
         <br />
-        
-
         <Routes>
-          <Route path="/home" element={<Home />} /> {/* Show Home component by default */}
+          <Route path="/home" element={<Home />} /> 
           <Route path="/about" element={<About />} />
-          <Route path="/events" element={<Events />} />
           <Route path="/collab" element={<Collab />} />
           <Route path="/sponsors" element={<Sponsors />} />
           <Route path="/contact" element={<Contact />} />
@@ -38,3 +34,4 @@ function App() {
 }
 
 export default App;
+//<Route path="/events" element={<Events />} />

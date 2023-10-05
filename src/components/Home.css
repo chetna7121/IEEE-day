@@ -179,8 +179,8 @@
   width: 180px;
   height: 60px;
   cursor: pointer;
-  background: transparent;
-  border: 1px solid #0d3681;
+  background: rgb(26, 29, 34);
+  border: 1px solid #729dec;
   outline: none;
   transition: 1s ease-in-out;
   position: relative; 
@@ -191,7 +191,7 @@
   left: 0;
   top: 0;
   fill: none;
-  stroke: #f37b0b;
+  stroke:2px #2e39a1;
   stroke-dasharray: 150 480;
   stroke-dashoffset: 150;
   transition: 1s ease-in-out;
@@ -206,7 +206,7 @@
 }
 
 .register-button span {
-  color: rgb(181, 189, 226);
+  color: rgb(255, 255, 255);
   font-size: 18px;
   font-weight: 100;
 }
@@ -262,7 +262,8 @@
 }
 
     .text-container h1 {
-        font-size: 37px;
+
+        font-size: 40px;
         
  
     }
@@ -272,8 +273,8 @@
       width: 180px;
       height: 60px;
       cursor: pointer;
-      background: transparent;
-      border: 2px solid #2d4b8d;
+      background: rgb(26, 29, 34);
+      border: 1px solid #4c82e7;
       outline: none;
       transition: 1s ease-in-out;
       position: relative; 
@@ -299,7 +300,7 @@
     }
     
     .register-button span {
-      color: rgb(156, 180, 190);
+      color: rgb(255, 255, 255);
       font-size: 20px;
       font-weight:bold;
     }

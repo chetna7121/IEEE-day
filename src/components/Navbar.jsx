@@ -51,7 +51,7 @@ const Navbar = () => {
         </li>
         <li>
           <NavLink to="/collab" onClick={handleNavLinkClick}>
-            COLLABORATOR
+            COLLAB
           </NavLink>
         </li>
         <li>
