@@ -59,7 +59,7 @@ const Events = () => {
         <div key={day.day}>
           <div className="day-heading">
             
-            <h4>{day.day}</h4>
+            <h2>{day.day}</h2>
           </div>
           <div className="event-cards">
             {day.events.map((event) => (

@@ -28,7 +28,7 @@ function App() {
         
         <Home/>
         <Gallery/></>} /> 
-       {/* <Route path="/events" element={<Events />} />*/}
+       { /*<Route path="/events" element={<Events />} />*/}
           <Route path="/home" element={<Home />} /> 
           <Route path="/about" element={<About />} />
           <Route path="/collab" element={<Collab />} />
