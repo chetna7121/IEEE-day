@@ -1,4 +1,3 @@
-/* Contact.css */
 
 .contact-container {
     display:grid;
@@ -64,11 +63,11 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    transition: transform 0.3s ease-in-out; /* Add a transition for the transform property */
+    transition: transform 0.3s ease-in-out;
   }
   
   .profile-image img:hover {
-    transform: scale(1.1); /* Scale the image up slightly on hover */
+    transform: scale(1.1); 
   }
   h5 {
     margin: 0;

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Navbar.css';
 import { NavLink } from 'react-router-dom';
-
+import logo from './ieee_logo3.png';
 
 const Navbar = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -33,6 +33,9 @@ const Navbar = () => {
       <div className="navbar-toggle" onClick={toggleSidebar}>
         <span className="navbar-toggle-icon">&#9776;</span>
       </div>
+  
+        <img src={logo} alt="Logo" />
+      
       <ul className={`navbar-links ${isSidebarOpen ? 'open' : ''}`}>
         <li>
           <NavLink to="/" onClick={handleNavLinkClick}>

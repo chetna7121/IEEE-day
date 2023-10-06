@@ -16,7 +16,7 @@ const About = () => {
         'IEEE Student Branch, Mody University of Science and Technology was formed in the college in the year of 2015. The Student Branch consists of 111 members and believes in the betterment of the future of the world and in helping build a sustainable society.',
     },
     {
-      img:"https://tse1.mm.bing.net/th?id=OIP.xGGhivBUzzJzwCKscrErxwHaD4&pid=Api&P=0&h=180",
+      img:"https://tse2.mm.bing.net/th?id=OIP.EcIVwiRigQqMPq8IlRF-VAHaD4&pid=Api&P=0&h=180",
       title: 'IEEE Day Worldwide Celebrations',
       description:
         'IEEE Day worldwide celebrations demonstrate the ways thousands of IEEE members in local communities join together to collaborate on ideas that leverage technology for a better tomorrow.',
@@ -32,7 +32,7 @@ const About = () => {
         <h3>ABOUT IEEE <hr /></h3>
       </div>
      
-      <div className="About-boxes"> {/* Updated class name */}
+      <div className="About-boxes"> 
         {AboutList.map((about, index) => (
           <div
             key={index}
@@ -40,7 +40,7 @@ const About = () => {
             onMouseEnter={() => setExpandedIndex(index)}
             onMouseLeave={() => setExpandedIndex(null)}
           >
-           <img className="about-image" src={about.img} />
+           <img className="about-image" src={about.img} alt={about.img}/>
             <h1 className="about-title">{about.title}</h1>
             <p className="about-description">{about.description}</p>
           </div>

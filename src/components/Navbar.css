@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500&family=Kanit:ital,wght@1,600&family=Lobster&family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500;1,700&family=Lumanosimo&family=Merriweather:wght@300&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Oxanium:wght@500&family=Pacifico&family=Playfair+Display&family=Public+Sans:wght@100&family=Rubik:ital,wght@1,500&display=swap');
 .navbar {
-  
+  margin-top: -1rem;
   font-family: 'Rubik', sans-serif;
     display: flex;
   justify-content: space-between;
@@ -8,7 +8,11 @@
   padding: 1rem;
   color: rgb(151, 193, 233);
 }
-
+.navbar img {
+margin-top: -0.5rem;
+  max-width: 100px; 
+  height: auto; 
+}
 .navbar-toggle {
   font-size: 1.5rem;
   cursor: pointer;
@@ -20,6 +24,7 @@
 }
 
 .navbar-links {
+  margin-top: 1rem;
   list-style: none;
   display: flex;
   margin-left: auto;

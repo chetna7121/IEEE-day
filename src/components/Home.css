@@ -5,7 +5,7 @@
     height: 100vh;
     width: 100vw;
     display:flex;
-    margin-top: -7rem;
+    margin-top: -8rem;
     justify-content: center;
     align-items: center;
     flex-direction: column; 
@@ -254,7 +254,7 @@
     height: 100vh;
     width: 100vw;
     display: flex;
-    margin-top: -12rem;
+    margin-top: -15rem;
     justify-content: center;
     align-items: center;
     flex-direction: column; 

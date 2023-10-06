@@ -18,7 +18,7 @@ const Collab = () => {
           <div className="day-heading">
             <h3>COLLAB<hr /></h3>
           </div>
-          <div className="Collab-boxes"> {/* Updated class name */}
+          <div className="Collab-boxes"> 
             {CollabList.map((collab, index) => (
               <div
                 key={index}
@@ -26,7 +26,7 @@ const Collab = () => {
                 onMouseEnter={() => setExpandedIndex(index)}
                 onMouseLeave={() => setExpandedIndex(null)}
               >
-                           <img className="collab-image" src={collab.img} />
+                           <img className="collab-image" src={collab.img} alt={collab} />
 
                 <h1 className="collab-title">{collab.title}</h1>
                 <p className="collab-description">{collab.description}</p>
