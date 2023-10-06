@@ -4,8 +4,10 @@
   font-family: 'Poppins', sans-serif;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 40px;
-  padding: 40px;
+  gap: 30px;
+  margin-top: 3rem;
+  padding: 10px;
+  margin-bottom: 0%;
 }
 
 .about-box {
@@ -90,6 +92,7 @@ h3 {
   text-align: center;
   font-size: 25px;
   font-weight: bold;
+  margin-top: -6rem;
   font-family: 'PT Serif', serif;
   color: #ffe9c8;
   animation: moveText 2s infinite alternate;

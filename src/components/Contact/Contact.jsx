@@ -1,38 +1,46 @@
 import React from 'react';
 import './Contact.css'; 
+import ritika_boss from './ritika_boss.jpg';
+import riya from './riya.jpg';
+import trupti_boss from './trupti_boss.jpg'
+import shruti_boss from './shruti_boss.jpg'
+import chetna1 from './chetna1.jpg'
 import EmailIcon from '@mui/icons-material/Email';
+
+
+
 const Contact = () => {
   const members = [
     {
       name: 'Ritika Malik',
       position: 'Chairperson',
       email: 'ritikamalik100102@gmail.com',
-      image: 'http://edu.ieee.org/in-must/wp-content/uploads/sites/615/Ritika-Malik1.jpg', 
+      image: ritika_boss, 
     },
     {
       name: 'Trrupti Singh',
       position: 'Vice Chairperson',
       email:'trruptisingh@gmail.com',
-      image: 'http://edu.ieee.org/in-must/wp-content/uploads/sites/615/TRRUPTI-2.jpeg', 
+      image: trupti_boss, 
     },
     {
       name: 'Riya Choudhary ',
       position: 'Secretary',
       email:'choudharyriya2308@gmail.com',
-      image: 'http://edu.ieee.org/in-must/wp-content/uploads/sites/615/Riya-Choudhary-1.jpeg', 
+      image: riya, 
     },
     {
       name: 'Shruti Agrawal',
       position: 'Treasurer ',
       email:'shrutioriya@gmail.com ',
-      image: 'http://edu.ieee.org/in-must/wp-content/uploads/sites/615/Shruti-Agrawal-.jpg', 
+      image: shruti_boss, 
     },
    
     {
       name: 'Chetna Mishra',
       position: 'Web Master',  
       email:'mchetna28@gmail.com',
-      image: 'http://edu.ieee.org/in-must/wp-content/uploads/sites/615/Chetna-Mishra-1.jpg', 
+      image: chetna1, 
     },
 
    

@@ -1,113 +1,75 @@
 import React from 'react';
 import './Events.css';
+
 const Events = () => {
-  const day1EventList = [
+  const eventLists = [
     {
+      day: 'Day 1',
+      events: [
+        {
+          id: 1,
+          image: 'https://media.istockphoto.com/vectors/coming-soon-dark-realistic-poster-promotion-flyer-template-vector-vector-id819372848?k=6&m=819372848&s=170667a&w=0&h=xAxMlauGmlvDjeNQUWe1bNguW4EyFs0TEUhVoRUXxWw=',
+        },
+        {
+          id: 2,
+          image: 'https://media.istockphoto.com/vectors/coming-soon-dark-realistic-poster-promotion-flyer-template-vector-vector-id819372848?k=6&m=819372848&s=170667a&w=0&h=xAxMlauGmlvDjeNQUWe1bNguW4EyFs0TEUhVoRUXxWw=',
 
-      title: 'Event 1',
-      date: 'August 5, 2023',
-      location: 'Venue A',
-      description: 'desc',
-      backgroundImage: '',
+        },
+       
+      ],
     },
     {
-      title: 'Event 2',
-      date: 'August 5, 2023',
-      location: 'Venue',
-      description: 'desc',
-      backgroundImage: '',
-    },
-  ];
+      day: 'Day 2',
+      events: [
+        {
+          id: 5,
+          image: 'https://media.istockphoto.com/vectors/coming-soon-dark-realistic-poster-promotion-flyer-template-vector-vector-id819372848?k=6&m=819372848&s=170667a&w=0&h=xAxMlauGmlvDjeNQUWe1bNguW4EyFs0TEUhVoRUXxWw=',
 
-  const day2EventList = [
-    {
-      title: 'Event 3',
-      date: 'August 6, 2023',
-      location: 'Venue',
-      description: 'desc',
-      backgroundImage: '',
-    },
-    {
-      title: 'Event 4',
-      date: 'August 6, 2023',
-      location: 'Venue',
-      description: 'desc',
-      backgroundImage: '',
-    
-    },
-  ];
+        },
+        {
+          id: 6,
+          image: 'https://media.istockphoto.com/vectors/coming-soon-dark-realistic-poster-promotion-flyer-template-vector-vector-id819372848?k=6&m=819372848&s=170667a&w=0&h=xAxMlauGmlvDjeNQUWe1bNguW4EyFs0TEUhVoRUXxWw=',
 
-  const day3EventList = [
-    {
-      title: 'Event 5',
-      date: 'August 7, 2023',
-      location: 'Venue',
-      description: 'desc',
-      backgroundImage: '',
+        },
+      
+      ],
     },
     {
-      title: 'Event 6',
-      date: 'August 7, 2023',
-      location: 'Venue',
-      description: 'desc',
-      backgroundImage: '',
+      day: 'Day 3',
+      events: [
+        {
+          id: 9,
+          image: 'https://media.istockphoto.com/vectors/coming-soon-dark-realistic-poster-promotion-flyer-template-vector-vector-id819372848?k=6&m=819372848&s=170667a&w=0&h=xAxMlauGmlvDjeNQUWe1bNguW4EyFs0TEUhVoRUXxWw=',
+
+        },
+        
+        {
+          id: 12,
+          image: 'https://media.istockphoto.com/vectors/coming-soon-dark-realistic-poster-promotion-flyer-template-vector-vector-id819372848?k=6&m=819372848&s=170667a&w=0&h=xAxMlauGmlvDjeNQUWe1bNguW4EyFs0TEUhVoRUXxWw=',
+
+        },
+      ],
     },
-   
   ];
 
   return (
-   
     <div>
-      <div className="day-heading">
-     
-        <h3>EVENTS <hr /></h3>
+      {eventLists.map((day) => (
         
-        <h4>DAY 1</h4>
-      </div>
-      <div className="event-cards">
-        {day1EventList.map((event, index) => (
-          <div key={index} className="card" style={{ backgroundImage: `url(${event.backgroundImage})` }}
-          >
-            <h1 className="card-title">{event.title}</h1>
-            <p className="card-date">{event.date}</p>
-            <p className="card-location">{event.location}</p>
-            <p className="card-description">{event.description}</p>
+        <div key={day.day}>
+          <div className="day-heading">
+            
+            <h4>{day.day}</h4>
           </div>
-        ))}
-      </div>
-
-      <div className="day-heading">
-     
-        <h4>DAY 2 <hr /></h4>
-      </div>
-      <div className="event-cards">
-        {day2EventList.map((event, index) => (
-          <div key={index} className="card" style={{ backgroundImage: `url(${event.backgroundImage})` }}
-
-          >
-            <h1 className="card-title">{event.title}</h1>
-            <p className="card-date">{event.date}</p>
-            <p className="card-location">{event.location}</p>
-            <p className="card-description">{event.description}</p>
+          <div className="event-cards">
+            {day.events.map((event) => (
+              <div key={event.id} className="card">
+                <img src={event.image} alt={`Event ${event.id}`} className="card-image" />
+              </div>
+            ))}
           </div>
-        ))}
-      </div>
-
-      <div className="day-heading">
-    
-        <h4>DAY 3 <hr /></h4>
-      </div>
-      <div className="event-cards">
-        {day3EventList.map((event, index) => (
-          <div key={index} className="card" style={{ backgroundImage: `url(${event.backgroundImage})` }}
-          >
-            <h1 className="card-title">{event.title}</h1>
-            <p className="card-date">{event.date}</p>
-            <p className="card-location">{event.location}</p>
-            <p className="card-description">{event.description}</p>
-          </div>
-        ))}
-      </div>
+        </div>
+      ))}
     </div>
   );
 };

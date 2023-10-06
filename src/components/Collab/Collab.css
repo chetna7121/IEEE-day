@@ -5,7 +5,9 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 40px;
-  padding: 40px;
+  padding: 10px;
+  margin-top: 3rem;
+ 
 }
 .collab-image {
   width: 100%; 
@@ -30,6 +32,7 @@
   width: 300px;
   transition: transform 0.3s ease-in-out, border 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
+
 .collab-box::before {
   content: "";
   position: absolute;
@@ -43,7 +46,6 @@
   opacity: 0.5; 
 
 }
-
 
 .collab-box:hover::before {
   box-shadow: 0px 10px 10px rgba(34, 148, 255, 0.1);
@@ -78,15 +80,16 @@
   color: #ffe9c8;
 }
 
-
 h3 {
   text-align: center;
   font-size: 25px;
+  margin-top: -5rem;
   font-weight: bold;
   font-family: 'PT Serif', serif;
   color: #ffe9c8;
   animation: moveText 2s infinite alternate;
 }
+
 hr{
   margin-top:1rem;
   width:4rem;

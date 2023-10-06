@@ -16,11 +16,19 @@ function App() {
     <div className="App">
       <Router>
       <Navbar />
-        <Home/>
-        <Gallery/>
+     
         <br />
         <br />
         <Routes>
+        <Route exact path="/IEEE-day" element={<>
+
+        <Home/>
+        <Gallery/></>} /> 
+        <Route exact path="/" element={<>
+        
+        <Home/>
+        <Gallery/></>} /> 
+       {/* <Route path="/events" element={<Events />} />*/}
           <Route path="/home" element={<Home />} /> 
           <Route path="/about" element={<About />} />
           <Route path="/collab" element={<Collab />} />
@@ -34,4 +42,3 @@ function App() {
 }
 
 export default App;
-//<Route path="/events" element={<Events />} />

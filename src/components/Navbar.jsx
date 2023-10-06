@@ -29,6 +29,8 @@ const Navbar = () => {
   return (
     <nav className="navbar">
          <div id="stars"></div>
+         <div id="stars2"></div>
+
   
       <div className="navbar-toggle" onClick={toggleSidebar}>
         <span className="navbar-toggle-icon">&#9776;</span>
