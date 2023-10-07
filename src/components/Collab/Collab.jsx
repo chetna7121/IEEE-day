@@ -16,7 +16,8 @@ const Collab = () => {
       return (
         <div>
           <div className="day-heading">
-            <h3>COLLAB<hr /></h3>
+            <h3>COLLABORATOR<hr /></h3>
+
           </div>
           <div className="Collab-boxes"> 
             {CollabList.map((collab, index) => (
@@ -26,13 +27,21 @@ const Collab = () => {
                 onMouseEnter={() => setExpandedIndex(index)}
                 onMouseLeave={() => setExpandedIndex(null)}
               >
-                           <img className="collab-image" src={collab.img} alt={collab} />
 
+                           <img className="collab-image" src={collab.img} alt={collab} />
                 <h1 className="collab-title">{collab.title}</h1>
                 <p className="collab-description">{collab.description}</p>
+        
               </div>
             ))}
+           
+
           </div>
+          <div className="external-button">
+        <a href="https://ieee-website-one.vercel.app/" target="_blank" rel="noopener noreferrer">
+          <button>Visit IEEE BPSC</button>
+        </a>
+      </div>
         </div>
       );
     };

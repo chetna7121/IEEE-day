@@ -46,6 +46,31 @@
   background-image: url('https://tse2.mm.bing.net/th?id=OIP.L0d3kL3E_XpRwjbeXnUPLwHaD5&pid=Api&P=0&h=180');
 }*/
 
+.external-button {
+  text-align: center;
+  margin-bottom: 13px;
+}
+
+.external-button a {
+  text-decoration: none;
+  
+}
+
+.external-button button {
+  background-color: #294058;
+  color:#ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 13px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.external-button button:hover {
+  background-color: #294058;
+  text-decoration:underline;
+}
+
 
 .about-box:hover::before {
   box-shadow: 0px 10px 10px rgba(34, 148, 255, 0.1);
@@ -55,7 +80,7 @@
 .about-box:hover {
   transform: scale(1.05);
   transform: translateY(-10px);
-  background-color: #6a7180;
+  background-color: #2e3649;
 }
 
 .about-description {

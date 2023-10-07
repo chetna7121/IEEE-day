@@ -2,7 +2,7 @@ import React from 'react';
 import './Events.css';
 
 const Events = () => {
-  const eventLists = [
+  /*const eventLists = [
     {
       day: 'Day 1',
       events: [
@@ -51,10 +51,14 @@ const Events = () => {
       ],
     },
   ];
-
+*/
   return (
     <div>
-      {eventLists.map((day) => (
+      <div className="day-heading">
+        <h3>REVEALING <br></br>
+           SOON<hr /></h3>
+      </div>
+      {/*eventLists.map((day) => (
         
         <div key={day.day}>
           <div className="day-heading">
@@ -69,7 +73,7 @@ const Events = () => {
             ))}
           </div>
         </div>
-      ))}
+            ))*/}
     </div>
   );
 };

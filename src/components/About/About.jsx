@@ -46,6 +46,11 @@ const About = () => {
           </div>
         ))}
       </div>
+      <div className="external-button">
+        <a href="https://edu.ieee.org/in-must/" target="_blank" rel="noopener noreferrer">
+          <button>Visit IEEE MUST</button>
+        </a>
+      </div>
     </div>
   );
 };
