@@ -13,7 +13,7 @@ const About = () => {
       img:"https://tse3.mm.bing.net/th?id=OIP.4UDG6lZH2flCLfliU--7ZAHaE7&pid=Api&P=0&h=180",
       title: 'IEEE Student Branch, Mody University',
       description:
-        'IEEE Student Branch, Mody University of Science and Technology was formed in the college in the year of 2015. The Student Branch consists of 111 members and believes in the betterment of the future of the world and in helping build a sustainable society.',
+        'IEEE Student Branch, Mody University of Science and Technology was formed in the college in the year of 2015. The Student Branch consists of 110+ members and believes in the betterment of the future of the world and in helping build a sustainable society.',
     },
     {
       img:"https://tse2.mm.bing.net/th?id=OIP.EcIVwiRigQqMPq8IlRF-VAHaD4&pid=Api&P=0&h=180",

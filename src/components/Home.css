@@ -71,8 +71,8 @@
   width: 180px;
   height: 60px;
   cursor: pointer;
-  background: transparent;
-  border: 1px solid #143e64;
+  background: rgb(29, 57, 92);
+ border: 1px solid #64abd8;
   outline: none;
   transition: 1s ease-in-out;
   position: relative; 
@@ -83,7 +83,7 @@
   left: 0;
   top: 0;
   fill: none;
-  stroke: #f37b0b;
+  stroke:  #b9f5ff;
   stroke-dasharray: 150 480;
   stroke-dashoffset: 150;
   transition: 1s ease-in-out;
@@ -178,8 +178,8 @@
   width: 180px;
   height: 60px;
   cursor: pointer;
-  background: rgb(33, 46, 71);
-  border: 1px solid #729dec;
+  background: rgb(29, 57, 92);
+      border: 1px solid #64abd8;
   outline: none;
   transition: 1s ease-in-out;
   position: relative; 
@@ -190,7 +190,7 @@
   left: 0;
   top: 0;
   fill: none;
-  stroke:2px #2e39a1;
+  stroke:  #bdf5ff;
   stroke-dasharray: 150 480;
   stroke-dashoffset: 150;
   transition: 1s ease-in-out;
@@ -266,17 +266,24 @@
         
  
     }
+    .button-container {
+      text-align: center;
+      margin-top: 0rem; 
+    }
     
     .register-button {
       top:4rem;
       width: 180px;
       height: 60px;
       cursor: pointer;
-      background: rgb(28, 39, 59);
-      border: 1px solid #4c82e7;
+      background: rgb(29, 57, 92);
+      border: 1px solid #64abd8;
       outline: none;
       transition: 1s ease-in-out;
       position: relative; 
+      text-decoration: none;
+      
+      
     }
     
     .register-button svg {
@@ -284,7 +291,7 @@
       left: 0;
       top: 0;
       fill: none;
-      stroke: #ff7b00;
+      stroke:  #bdf5ff;
       stroke-dasharray: 150 480;
       stroke-dashoffset: 150;
       transition: 1s ease-in-out;

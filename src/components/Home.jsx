@@ -50,11 +50,15 @@ const Home = () => {
       </div>
        <div className="button-container">
         <button className="register-button">
+        <a href="https://forms.gle/o3R2xsDdC94Ep9EZ9" target="_blank" rel="noopener noreferrer" >
+
           <svg width="180px" height="60px" viewBox="0 0 180 60" className="border">
             <polyline points="179,1 179,59 1,59 1,1 179,1" className="bg-line" />
             <polyline points="179,1 179,59 1,59 1,1 179,1" className="hl-line" />
           </svg>
           <span>Register Now</span>
+          </a>
+
         </button>
     </div>
     <div className="custom-countup1">
