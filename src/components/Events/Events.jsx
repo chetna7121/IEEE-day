@@ -1,25 +1,26 @@
 import React from 'react';
 import './Events.css';
-
+import opening from './opening.jpg';
+import arsh from './arsh.jpg';
 const Events = () => {
-  /*const eventLists = [
+  const eventLists = [
     {
-      day: 'Day 1',
+      day: 'DAY 1',
       events: [
         {
           id: 1,
-          image: 'https://media.istockphoto.com/vectors/coming-soon-dark-realistic-poster-promotion-flyer-template-vector-vector-id819372848?k=6&m=819372848&s=170667a&w=0&h=xAxMlauGmlvDjeNQUWe1bNguW4EyFs0TEUhVoRUXxWw=',
+          image: opening,
         },
         {
           id: 2,
-          image: 'https://media.istockphoto.com/vectors/coming-soon-dark-realistic-poster-promotion-flyer-template-vector-vector-id819372848?k=6&m=819372848&s=170667a&w=0&h=xAxMlauGmlvDjeNQUWe1bNguW4EyFs0TEUhVoRUXxWw=',
+          image: arsh,
 
-        },
+      },
        
       ],
     },
-    {
-      day: 'Day 2',
+    /*{
+      day: 'DAY 2',
       events: [
         {
           id: 5,
@@ -35,7 +36,7 @@ const Events = () => {
       ],
     },
     {
-      day: 'Day 3',
+      day: 'DAY 3',
       events: [
         {
           id: 9,
@@ -49,16 +50,16 @@ const Events = () => {
 
         },
       ],
-    },
+    },*/
   ];
-*/
+
   return (
     <div>
       <div className="day-heading">
-        <h3>REVEALING <br></br>
-           SOON<hr /></h3>
+        <h3>EVENTS
+           <hr /></h3>
       </div>
-      {/*eventLists.map((day) => (
+      {eventLists.map((day) => (
         
         <div key={day.day}>
           <div className="day-heading">
@@ -73,7 +74,7 @@ const Events = () => {
             ))}
           </div>
         </div>
-            ))*/}
+            ))}
     </div>
   );
 };
