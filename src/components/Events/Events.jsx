@@ -2,6 +2,7 @@ import React from 'react';
 import './Events.css';
 import opening from './opening.jpg';
 import arsh from './arsh.jpg';
+import cs from './cs.jpg';
 const Events = () => {
   const eventLists = [
     {
@@ -13,6 +14,10 @@ const Events = () => {
         },
         {
           id: 2,
+          image: cs,
+        },
+        {
+          id: 3,
           image: arsh,
 
       },
