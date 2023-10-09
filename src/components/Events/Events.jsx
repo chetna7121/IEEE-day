@@ -3,6 +3,12 @@ import './Events.css';
 import opening from './opening.jpg';
 import arsh from './arsh.jpg';
 import cs from './cs.jpg';
+import cyber from './cyber.jpg';
+import research from './research.jpg';
+import sports from './sports.jpg';
+import duo from './duo.jpg';
+import family from './family.jpg';
+
 const Events = () => {
   const eventLists = [
     {
@@ -24,17 +30,27 @@ const Events = () => {
        
       ],
     },
-    /*{
+    {
       day: 'DAY 2',
       events: [
         {
           id: 5,
-          image: 'https://media.istockphoto.com/vectors/coming-soon-dark-realistic-poster-promotion-flyer-template-vector-vector-id819372848?k=6&m=819372848&s=170667a&w=0&h=xAxMlauGmlvDjeNQUWe1bNguW4EyFs0TEUhVoRUXxWw=',
+          image: cyber,
 
         },
         {
           id: 6,
-          image: 'https://media.istockphoto.com/vectors/coming-soon-dark-realistic-poster-promotion-flyer-template-vector-vector-id819372848?k=6&m=819372848&s=170667a&w=0&h=xAxMlauGmlvDjeNQUWe1bNguW4EyFs0TEUhVoRUXxWw=',
+          image: family,
+
+        },
+        {
+          id: 7,
+          image: duo,
+
+        },
+        {
+          id: 8,
+          image: sports,
 
         },
       
@@ -45,17 +61,13 @@ const Events = () => {
       events: [
         {
           id: 9,
-          image: 'https://media.istockphoto.com/vectors/coming-soon-dark-realistic-poster-promotion-flyer-template-vector-vector-id819372848?k=6&m=819372848&s=170667a&w=0&h=xAxMlauGmlvDjeNQUWe1bNguW4EyFs0TEUhVoRUXxWw=',
+          image:research,
 
         },
         
-        {
-          id: 12,
-          image: 'https://media.istockphoto.com/vectors/coming-soon-dark-realistic-poster-promotion-flyer-template-vector-vector-id819372848?k=6&m=819372848&s=170667a&w=0&h=xAxMlauGmlvDjeNQUWe1bNguW4EyFs0TEUhVoRUXxWw=',
-
-        },
+        
       ],
-    },*/
+    },
   ];
 
   return (
