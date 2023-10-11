@@ -1,15 +1,10 @@
 {
   "files": {
     "main.css": "/IEEE-day/static/css/main.6cd502d5.css",
-    "main.js": "/IEEE-day/static/js/main.14053b6c.js",
+    "main.js": "/IEEE-day/static/js/main.3317025f.js",
     "static/js/787.28cb0dcd.chunk.js": "/IEEE-day/static/js/787.28cb0dcd.chunk.js",
-    "static/media/img17.jpg": "/IEEE-day/static/media/img17.1867e6212f972b682fb1.jpg",
-    "static/media/img26.jpg": "/IEEE-day/static/media/img26.6fcab3bbca33853e36ae.jpg",
-    "static/media/img18.jpg": "/IEEE-day/static/media/img18.b663ed132090c1da3643.jpg",
     "static/media/img6.jpg": "/IEEE-day/static/media/img6.1941ee941255ad3f5dd8.jpg",
     "static/media/img14.jpg": "/IEEE-day/static/media/img14.8a9597c18ad7d0baac8b.jpg",
-    "static/media/img25.jpg": "/IEEE-day/static/media/img25.8a9597c18ad7d0baac8b.jpg",
-    "static/media/img16.jpg": "/IEEE-day/static/media/img16.9af2c4f78276e6a0056b.jpg",
     "static/media/img9.jpg": "/IEEE-day/static/media/img9.a9ed8675b46655e581d1.jpg",
     "static/media/img8.jpg": "/IEEE-day/static/media/img8.623a2bdcf321bbb4839c.jpg",
     "static/media/img7.jpg": "/IEEE-day/static/media/img7.5922a15c6eb1e096d827.jpg",
@@ -17,18 +12,14 @@
     "static/media/img12.jpg": "/IEEE-day/static/media/img12.59544222fbfd05e8d06c.jpg",
     "static/media/img13.jpg": "/IEEE-day/static/media/img13.44511cf28f507df2cc27.jpg",
     "static/media/img10.jpg": "/IEEE-day/static/media/img10.bfec1e84b2205ff42e53.jpg",
-    "static/media/img23.jpg": "/IEEE-day/static/media/img23.57d58351e0a747d8646c.jpg",
     "static/media/img4.jpg": "/IEEE-day/static/media/img4.d022e38014fbff13550f.jpg",
     "static/media/img2.jpg": "/IEEE-day/static/media/img2.2cf1a794842857843854.jpg",
     "static/media/img11.jpg": "/IEEE-day/static/media/img11.c05b028203b56cc17052.jpg",
-    "static/media/img20.jpg": "/IEEE-day/static/media/img20.98791aabe5dc955bd717.jpg",
     "static/media/img3.jpg": "/IEEE-day/static/media/img3.faba93ed7975c6fff891.jpg",
     "static/media/img5.jpg": "/IEEE-day/static/media/img5.662b403020ea9ff761a3.jpg",
-    "static/media/img22.jpg": "/IEEE-day/static/media/img22.cbea3fa97961f37b46b8.jpg",
-    "static/media/img19.jpg": "/IEEE-day/static/media/img19.3f237115626b56c3be52.jpg",
-    "static/media/img24.jpg": "/IEEE-day/static/media/img24.2767f0277fb870eefb18.jpg",
-    "static/media/img21.jpg": "/IEEE-day/static/media/img21.6900834276eb2b391859.jpg",
     "static/media/cs.jpg": "/IEEE-day/static/media/cs.d284d73a829f059230df.jpg",
+    "static/media/chit.jpg": "/IEEE-day/static/media/chit.67c1e706e0fcfc32afe0.jpg",
+    "static/media/night.jpg": "/IEEE-day/static/media/night.c1b3f925fc583b504f8f.jpg",
     "static/media/ritika_boss.jpg": "/IEEE-day/static/media/ritika_boss.9d7ccce49f621a80b48b.jpg",
     "static/media/arsh.jpg": "/IEEE-day/static/media/arsh.805a3b5b7f24ab399d25.jpg",
     "static/media/trupti_boss.jpg": "/IEEE-day/static/media/trupti_boss.37adb1637cb6f980dd9f.jpg",
@@ -44,11 +35,11 @@
     "static/media/ieee_logo3.png": "/IEEE-day/static/media/ieee_logo3.1a7c030a666a2067e1c2.png",
     "index.html": "/IEEE-day/index.html",
     "main.6cd502d5.css.map": "/IEEE-day/static/css/main.6cd502d5.css.map",
-    "main.14053b6c.js.map": "/IEEE-day/static/js/main.14053b6c.js.map",
+    "main.3317025f.js.map": "/IEEE-day/static/js/main.3317025f.js.map",
     "787.28cb0dcd.chunk.js.map": "/IEEE-day/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6cd502d5.css",
-    "static/js/main.14053b6c.js"
+    "static/js/main.3317025f.js"
   ]
 }
