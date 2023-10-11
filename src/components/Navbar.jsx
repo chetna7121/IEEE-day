@@ -59,11 +59,7 @@ const Navbar = () => {
             COLLABORATOR
           </NavLink>
         </li>
-        <li>
-          <NavLink to="/sponsors" onClick={handleNavLinkClick}>
-            SPONSORS
-          </NavLink>
-        </li>
+       
         <li>
           <NavLink to="/contact" onClick={handleNavLinkClick}>
             CONTACT

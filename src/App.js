@@ -5,7 +5,6 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Events from './components/Events/Events';
 import About from './components/About/About';
-import Sponsors from './components/Sponsors/Sponsors';
 import Contact from './components/Contact/Contact';
 import Gallery from './components/Gallary/Gallery';
 import Collab from './components/Collab/Collab';
@@ -32,7 +31,6 @@ function App() {
           <Route path="/home" element={<Home />} /> 
           <Route path="/about" element={<About />} />
           <Route path="/collab" element={<Collab />} />
-          <Route path="/sponsors" element={<Sponsors />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </Router>
