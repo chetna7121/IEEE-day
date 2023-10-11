@@ -8,6 +8,8 @@ import research from './research.jpg';
 import sports from './sports.jpg';
 import duo from './duo.jpg';
 import family from './family.jpg';
+import night from './night.jpg';
+import chit from './chit.jpg';
 
 const Events = () => {
   const eventLists = [
@@ -64,7 +66,16 @@ const Events = () => {
           image:research,
 
         },
-        
+        {
+          id: 10,
+          image:chit,
+
+        },
+        {
+          id: 11,
+          image:night,
+
+        },
         
       ],
     },
