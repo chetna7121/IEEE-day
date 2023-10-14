@@ -3,13 +3,13 @@ import './Events.css';
 import opening from './opening.jpg';
 import arsh from './arsh.jpg';
 import cs from './cs.jpg';
-import cyber from './cyber.jpg';
+import cyber1 from './cyber1.jpg';
 import research from './research.jpg';
 import sports from './sports.jpg';
-import duo from './duo.jpg';
-import family from './family.jpg';
+import duo1 from './duo1.jpg';
+import family1 from './family1.jpg';
 import night from './night.jpg';
-import chit from './chit.jpg';
+import chit1 from './chit1.jpg';
 
 const Events = () => {
   const eventLists = [
@@ -36,25 +36,26 @@ const Events = () => {
       day: 'DAY 2',
       events: [
         {
-          id: 5,
-          image: cyber,
-
-        },
-        {
-          id: 6,
-          image: family,
-
-        },
-        {
-          id: 7,
-          image: duo,
-
-        },
-        {
           id: 8,
           image: sports,
 
         },
+        {
+          id: 5,
+          image: cyber1,
+
+        },
+        {
+          id: 6,
+          image: family1,
+
+        },
+        {
+          id: 7,
+          image: duo1,
+
+        },
+       
       
       ],
     },
@@ -68,7 +69,7 @@ const Events = () => {
         },
         {
           id: 10,
-          image:chit,
+          image:chit1,
 
         },
         {
@@ -76,7 +77,7 @@ const Events = () => {
           image:night,
 
         },
-        
+      
       ],
     },
   ];
