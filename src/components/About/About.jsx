@@ -7,7 +7,7 @@ const About = () => {
       img:"https://tse3.mm.bing.net/th?id=OIP.eGHlueFpkfuv_zblyATYrQHaEK&pid=Api&P=0&h=180",
       title: 'IEEE ' ,
       description:
-        ' *Your flag is IEEE_DAY_CS{aagvar$$ul##&*)}  Institute of Electrical and Electronics Engineers (IEEE) is an association dedicated to advancing innovation and technological excellence for the benefit of humanity.',
+        'Institute of Electrical and Electronics Engineers (IEEE) is an association dedicated to advancing innovation and technological excellence for the benefit of humanity.',
     },
     {
       img:"https://tse3.mm.bing.net/th?id=OIP.4UDG6lZH2flCLfliU--7ZAHaE7&pid=Api&P=0&h=180",

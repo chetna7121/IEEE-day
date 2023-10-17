@@ -10,7 +10,7 @@ import duo1 from './duo1.jpg';
 import family1 from './family1.jpg';
 import night from './night.jpg';
 import chit1 from './chit1.jpg';
-
+import cluster from './cluster.jpg';
 const Events = () => {
   const eventLists = [
     {
@@ -26,6 +26,10 @@ const Events = () => {
         },
         {
           id: 3,
+          image: cluster,
+        },
+        {
+          id: 4,
           image: arsh,
 
       },
@@ -36,22 +40,22 @@ const Events = () => {
       day: 'DAY 2',
       events: [
         {
-          id: 8,
+          id: 5,
           image: sports,
 
         },
         {
-          id: 5,
+          id: 6,
           image: cyber1,
 
         },
         {
-          id: 6,
+          id: 7,
           image: family1,
 
         },
         {
-          id: 7,
+          id:8,
           image: duo1,
 
         },
